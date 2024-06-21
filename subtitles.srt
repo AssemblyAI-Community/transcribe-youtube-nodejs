@@ -1,0 +1,520 @@
+1
+00:00:00,200 --> 00:00:03,230
+Hi everyone, I'm Patrick and in this video I show you how I would learn
+
+2
+00:00:03,262 --> 00:00:07,334
+machine learning if I could start over. For context, I'm a machine learning developer
+
+3
+00:00:07,374 --> 00:00:10,910
+advocate at AssemblyAI and before that I worked several years as
+
+4
+00:00:10,942 --> 00:00:14,854
+software developer and ML engineer and I also teach Python and machine
+
+5
+00:00:14,894 --> 00:00:18,326
+learning on my own YouTube channel. So I would say I'm pretty experienced
+
+6
+00:00:18,350 --> 00:00:21,750
+in the field, but I know that the available courses out there
+
+7
+00:00:21,782 --> 00:00:25,078
+can be overwhelming for beginners, so I hope to give you some guidance
+
+8
+00:00:25,126 --> 00:00:29,006
+with this video. The demand for machine learning engineers is still increasing
+
+9
+00:00:29,110 --> 00:00:33,380
+every year, so it's a great skill to have. I divided this learning path into
+
+10
+00:00:33,452 --> 00:00:36,924
+seven steps that should take you about three months to finish. Of course,
+
+11
+00:00:36,964 --> 00:00:40,364
+this can vary depending on how much time and effort you want to put into
+
+12
+00:00:40,404 --> 00:00:44,364
+this, and I know that everyone learns differently or might have different goals.
+
+13
+00:00:44,484 --> 00:00:47,884
+So this is just my personal take on how to learn machine
+
+14
+00:00:47,924 --> 00:00:51,436
+learning. You can use this guide if you just want to explore machine learning as
+
+15
+00:00:51,460 --> 00:00:54,444
+a hobby, but also if you plan to find a job in the field,
+
+16
+00:00:54,564 --> 00:00:57,900
+I will mention a few more tips about the job search in the end.
+
+17
+00:00:58,012 --> 00:01:01,556
+So lets jump into the study plan. The first thing I recommend is to lay
+
+18
+00:01:01,580 --> 00:01:04,804
+the foundation with some math basics. Now you might say
+
+19
+00:01:04,844 --> 00:01:08,524
+math is not really necessary anymore and this is partly true.
+
+20
+00:01:08,644 --> 00:01:12,004
+The available machine learning frameworks abstract the math away
+
+21
+00:01:12,084 --> 00:01:15,588
+and I know many machine learning engineers so dont need it in their day job
+
+22
+00:01:15,636 --> 00:01:19,116
+at all. However, in my opinion, knowing the underlying math
+
+23
+00:01:19,180 --> 00:01:23,180
+provides you with a better foundation and better understanding of how the algorithms
+
+24
+00:01:23,252 --> 00:01:26,996
+work and it makes your life easier when you run into problems.
+
+25
+00:01:27,140 --> 00:01:30,212
+Also, I think there is beauty in the underlying math
+
+26
+00:01:30,268 --> 00:01:33,940
+that makes the machines learn. So for me, knowing the math
+
+27
+00:01:34,012 --> 00:01:37,844
+sparked my excitement even more. Now you dont need to get too deep into
+
+28
+00:01:37,884 --> 00:01:41,636
+this. A great website with free resources is Khan Academy.
+
+29
+00:01:41,740 --> 00:01:45,132
+So my recommendation is just to take some basic courses and
+
+30
+00:01:45,148 --> 00:01:49,036
+then move on. And then later when you do the actual machine learning course
+
+31
+00:01:49,100 --> 00:01:52,604
+and dont understand everything, then come back here and learn the missing
+
+32
+00:01:52,644 --> 00:01:56,374
+topics. Oh and by the way, you find all the resources and recommended courses
+
+33
+00:01:56,414 --> 00:01:59,766
+in the description below. The next step is to learn Python. It is
+
+34
+00:01:59,790 --> 00:02:03,142
+the number one programming language for machine learning and there is
+
+35
+00:02:03,198 --> 00:02:06,950
+no way around it. All major machine learning frameworks are built
+
+36
+00:02:06,982 --> 00:02:10,718
+with it and all major courses use Python for their exercises.
+
+37
+00:02:10,846 --> 00:02:14,110
+So having decent Python skills is essential to build machine
+
+38
+00:02:14,142 --> 00:02:17,574
+learning projects. Now you don't need to become an advanced software
+
+39
+00:02:17,614 --> 00:02:20,652
+developer, but a little bit more than the beginner level would be great.
+
+40
+00:02:20,758 --> 00:02:24,112
+One great thing about Python is that it is very beginner friendly,
+
+41
+00:02:24,168 --> 00:02:27,504
+and in my opinion it's the best first programming language you can
+
+42
+00:02:27,544 --> 00:02:31,216
+learn. I recommend two free courses on YouTube, one four
+
+43
+00:02:31,280 --> 00:02:34,392
+hour beginner course and one six hour intermediate course,
+
+44
+00:02:34,448 --> 00:02:37,680
+and then you should have a solid base. This step is what I call the
+
+45
+00:02:37,712 --> 00:02:41,792
+machine learning tech stack and consists of the most important python libraries
+
+46
+00:02:41,848 --> 00:02:45,424
+for machine learning, data science, and data visualization. This step
+
+47
+00:02:45,464 --> 00:02:48,896
+is a bit optional because you can also pick up these skills later when you
+
+48
+00:02:48,920 --> 00:02:52,270
+do the actual machine learning course, but I think it's great to build
+
+49
+00:02:52,302 --> 00:02:55,926
+the foundation first and then it will be easier later. The three libraries
+
+50
+00:02:55,990 --> 00:02:59,262
+I recommend at this point are numpy, which is the base for
+
+51
+00:02:59,318 --> 00:03:02,630
+everything pandas, which is important for data handling,
+
+52
+00:03:02,702 --> 00:03:06,166
+and matplotlib, which is needed for visualization. These libraries
+
+53
+00:03:06,230 --> 00:03:09,806
+are used in almost every machine learning project. That's why I would include
+
+54
+00:03:09,870 --> 00:03:13,510
+them in your learning path at this point. Again, you don't need
+
+55
+00:03:13,542 --> 00:03:16,598
+to learn too much here. I recommend just following one
+
+56
+00:03:16,646 --> 00:03:20,000
+free crash course for each library and then later pick
+
+57
+00:03:20,032 --> 00:03:23,552
+up more advanced concepts if you need them. At this point you dont have
+
+58
+00:03:23,568 --> 00:03:27,488
+to learn the machine learning courses like scikit learn, Tensorflow, or Pytorch.
+
+59
+00:03:27,576 --> 00:03:30,744
+You could of course if you want, but these are included in the machine
+
+60
+00:03:30,784 --> 00:03:33,960
+learning course I show you in a moment, so you can pick these up
+
+61
+00:03:33,992 --> 00:03:37,504
+later. Now that weve covered the coding skills, it is finally time
+
+62
+00:03:37,544 --> 00:03:41,560
+for the actual machine learning course. There are many great ones available,
+
+63
+00:03:41,672 --> 00:03:45,192
+but the most popular, and in my opinion also one of the best
+
+64
+00:03:45,248 --> 00:03:48,680
+ones, is the machine learning specialization by Andrew Ng on
+
+65
+00:03:48,712 --> 00:03:51,990
+Coursera. This specialization includes its three courses.
+
+66
+00:03:52,062 --> 00:03:55,638
+It got revamped just a few months ago and now includes Python
+
+67
+00:03:55,686 --> 00:03:58,766
+with Numpy, scikit learn and Tensorflow for the code.
+
+68
+00:03:58,870 --> 00:04:02,422
+So you not only learn all the essential machine learning concepts,
+
+69
+00:04:02,478 --> 00:04:05,758
+but also get your first hands on experience with the ML
+
+70
+00:04:05,806 --> 00:04:09,182
+libraries. It is extensive and it takes several weeks to finish,
+
+71
+00:04:09,238 --> 00:04:13,014
+but it's worth it after these courses. I have one more recommendation for
+
+72
+00:04:13,054 --> 00:04:16,662
+you. I suggest to implement a few algorithms from scratch
+
+73
+00:04:16,718 --> 00:04:20,056
+in Python using only pure Python and numpy,
+
+74
+00:04:20,150 --> 00:04:24,092
+for example by following my ML from scratch playlist here on YouTube.
+
+75
+00:04:24,148 --> 00:04:27,396
+This is completely optional, but it helped me to properly understand
+
+76
+00:04:27,500 --> 00:04:31,340
+some of the concepts from Andrew's course, and a lot of students have told
+
+77
+00:04:31,372 --> 00:04:34,660
+me the same feedback, so check it out if you want to. Also, we plan
+
+78
+00:04:34,692 --> 00:04:38,180
+to release an updated version of the ML from scratch course here
+
+79
+00:04:38,212 --> 00:04:41,396
+on the AssemblyAI channel, so make sure to subscribe to
+
+80
+00:04:41,420 --> 00:04:45,108
+our channel and don't miss it. Now I recommend getting even more hands on
+
+81
+00:04:45,156 --> 00:04:48,938
+and learning more about data preparation. For this kaggle has
+
+82
+00:04:48,986 --> 00:04:52,066
+awesome free courses on their website. I recommend at
+
+83
+00:04:52,090 --> 00:04:55,362
+least the intro to ML and intermediate ML courses.
+
+84
+00:04:55,458 --> 00:04:58,826
+They are lightweight compared to the previous one and some material is
+
+85
+00:04:58,850 --> 00:05:02,970
+just a refresher for you, but youll learn more about data preprocessing
+
+86
+00:05:03,002 --> 00:05:06,202
+and data preparation with pandas. Each lesson has a theory
+
+87
+00:05:06,258 --> 00:05:09,586
+part and then some coding exercises. It also gives you a
+
+88
+00:05:09,610 --> 00:05:12,970
+gentle introduction to the Kaggle platform and you learn how to make
+
+89
+00:05:13,002 --> 00:05:16,456
+code submissions on Kaggle which is perfect for the next point.
+
+90
+00:05:16,560 --> 00:05:19,808
+Now its time to practice as much as possible and
+
+91
+00:05:19,856 --> 00:05:23,096
+apply your knowledge to real world machine learning problems.
+
+92
+00:05:23,200 --> 00:05:26,064
+For this the best platform is kaggle.com.
+
+93
+00:05:26,184 --> 00:05:29,872
+it provides thousands of different datasets and challenges where you
+
+94
+00:05:29,888 --> 00:05:33,240
+can participate. Participating in challenges can motivate
+
+95
+00:05:33,272 --> 00:05:37,000
+you a lot. Now I wouldnt try making it to the top or even winning
+
+96
+00:05:37,032 --> 00:05:40,976
+prize money with this because to be honest, this requires true expertise
+
+97
+00:05:41,040 --> 00:05:44,828
+and also a lot of GPU power. But I would still try
+
+98
+00:05:44,876 --> 00:05:48,132
+to tweak your solutions multiple times by learning
+
+99
+00:05:48,188 --> 00:05:52,396
+more about data preprocessing and also about hyperparameter tuning.
+
+100
+00:05:52,460 --> 00:05:55,820
+You can then use Kaggle competitions to build your portfolio and put
+
+101
+00:05:55,852 --> 00:05:59,548
+them on your cv. So in my opinion, Kaggle is an awesome
+
+102
+00:05:59,596 --> 00:06:03,412
+platform and you should practice here as much as possible. Of course, you can also
+
+103
+00:06:03,468 --> 00:06:07,244
+tackle other machine learning problems outside of Kaggle. It just makes your
+
+104
+00:06:07,284 --> 00:06:11,176
+life a little bit easier because it provides you with the datasets, a platform
+
+105
+00:06:11,240 --> 00:06:14,736
+to evaluate the projects, and there is a whole community around it.
+
+106
+00:06:14,800 --> 00:06:17,584
+At this point you can already be super proud of yourself.
+
+107
+00:06:17,664 --> 00:06:21,144
+And now in this last section, I want to give you a few more tips.
+
+108
+00:06:21,184 --> 00:06:24,864
+If your goal is to get a job, the tasks of ML engineers vary
+
+109
+00:06:24,904 --> 00:06:27,952
+a lot and it's not possible to know everything. For example,
+
+110
+00:06:28,008 --> 00:06:31,416
+some positions are specialized in computer vision or NLP,
+
+111
+00:06:31,560 --> 00:06:35,448
+or they require you to have experience with a specific ML framework
+
+112
+00:06:35,496 --> 00:06:38,978
+or even mlops requirements like how to deploy and scale scale
+
+113
+00:06:39,026 --> 00:06:42,650
+ML apps. MLops is a whole field on its own, so I may cover this
+
+114
+00:06:42,682 --> 00:06:46,306
+in a separate video. My point is, you have to decide in which field you
+
+115
+00:06:46,330 --> 00:06:50,426
+want to work and then look at the requirements in some corresponding job descriptions
+
+116
+00:06:50,490 --> 00:06:53,930
+and then specialize in this direction. Another great tip I can
+
+117
+00:06:53,962 --> 00:06:57,754
+give you, and this is something I wish I had done earlier in my career,
+
+118
+00:06:57,834 --> 00:07:01,546
+is to start a blog. You can write tutorials, share what you've learned,
+
+119
+00:07:01,610 --> 00:07:05,066
+which projects you have built, which problems you have faced along the way,
+
+120
+00:07:05,090 --> 00:07:08,442
+and how you've solved them. By writing about a topic, you can deepen your
+
+121
+00:07:08,498 --> 00:07:11,984
+knowledge and then you can use this as a resource on your cv.
+
+122
+00:07:12,104 --> 00:07:15,848
+Trust me, this will increase your chances to get an interview a lot.
+
+123
+00:07:15,936 --> 00:07:19,216
+Alright, that's my recommendation for a machine learning study guide.
+
+124
+00:07:19,280 --> 00:07:22,568
+Again, this might not be suited for everyone. This is just how
+
+125
+00:07:22,616 --> 00:07:26,016
+I would learn machine learning if I had to start over. Just one more
+
+126
+00:07:26,040 --> 00:07:29,608
+quick addition. If you prefer learning with books, then you can check out these
+
+127
+00:07:29,656 --> 00:07:32,896
+two books. Let me know in the comments if this was helpful,
+
+128
+00:07:32,960 --> 00:07:36,168
+or if you have any other suggestions you would add to the plan.
+
+129
+00:07:36,296 --> 00:07:39,952
+Don't forget to check out the resource list I put in the description below and
+
+130
+00:07:39,968 --> 00:07:41,808
+then I hope to see you in the next video.
+
