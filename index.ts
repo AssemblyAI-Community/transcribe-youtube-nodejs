@@ -12,8 +12,7 @@ const videoInfo = await youtubeDl(youtubeVideoUrl, {
   addHeader: ["referer:youtube.com", "user-agent:googlebot"],
 });
 
-const formats = videoInfo.formats.reverse();
-const audioUrl = formats.find(
+const audioUrl = videoInfo.formats.reverse().find(
   (format) => format.resolution === "audio only" && format.ext === "m4a",
 )?.url;
 
@@ -55,5 +54,6 @@ const prompt = "Summarize this video using bullet points";
 const lemurResponse = await aaiClient.lemur.task({
   transcript_ids: [transcript.id],
   prompt,
+  final_model: "anthropic/claude-2-1"
 });
 console.log(prompt + ": " + lemurResponse.response);
