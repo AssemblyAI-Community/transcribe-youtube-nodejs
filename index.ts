@@ -38,13 +38,11 @@ if (transcript.status === "error") {
 
 console.log("Transcription complete");
 
-console.log("Saving transcript to file");
 await writeFile("./transcript.txt", transcript.text!);
 console.log("Transcript saved to file transcript.txt");
 
 console.log("Retrieving transcript as SRT subtitles");
 const subtitles = await aaiClient.transcripts.subtitles(transcript.id, "srt");
-console.log("Saving subtitles to file");
 await writeFile("./subtitles.srt", subtitles);
 console.log("Subtitles saved to file subtitles.srt");
 
